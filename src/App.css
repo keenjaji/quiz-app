@@ -41,7 +41,7 @@
   }
 }
 
-.menu, .quiz{
+.menu, .quiz ,.score{
   width: 500px;
   height: 500px;
   background-color: lightblue;
@@ -51,15 +51,16 @@
   justify-content: center;
   align-items: center;
 }
-.menu button{
+.menu button, .quiz button ,.score button {
   width: 300px;
   height: 50px;
-  margin: 5x;
+  margin: 5px;
   border: none;
   border-radius: 5px;
   font-size: 20px;
   cursor: pointer;
 }
+
 button:active{
   background: orange;
   color: #fff;
